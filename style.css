@@ -1,0 +1,231 @@
+body {
+    display: grid;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(170, 169, 169);
+}
+
+.container .sayi_cikti {
+    position: relative;
+    top: 15px;
+    height: 30px;
+    width: 100%;
+}
+
+.container .sayi_cikti input {
+    height: 30px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0 0 0 10;   
+}
+
+.container .sayi_cikti input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container .sayi_girdi {
+    position: relative;
+    display: grid;
+    width: 300px;
+    height: 300px;
+    top: 30px;
+}
+
+.container .sayi_girdi .sira1 {
+    display: flex;
+    position: relative;
+}
+
+.container .sayi_girdi .sira1 input {
+    width: 75px;
+    height: 75px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: #333333;
+    cursor: pointer;
+}
+
+.container .sayi_girdi .sira1 input:hover {
+    transition: 0.1s all ease-in-out;
+    background-color: #ffffff81;
+}
+
+.container .sayi_girdi .sira2 {
+    display: flex;
+    position: relative;
+}
+
+.container .sayi_girdi .sira2 input {
+    width: 75px;
+    height: 75px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: #333333;
+    cursor: pointer;
+}
+
+.container .sayi_girdi .sira2 input:hover {
+    transition: 0.1s all ease-in-out;
+    background-color: #ffffff81;
+}
+
+.container .sayi_girdi .sira3 {
+    display: flex;
+    position: relative;
+}
+
+.container .sayi_girdi .sira3 input {
+    width: 75px;
+    height: 75px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: #333333;
+    cursor: pointer;
+}
+
+.container .sayi_girdi .sira3 input:hover {
+    transition: 0.1s all ease-in-out;
+    background-color: #ffffff81;
+}
+
+.container .sayi_girdi .sira4 {
+    display: flex;
+    position: relative;
+}
+
+.container .sayi_girdi .sira4 input {
+    width: 225px;    
+    height: 75px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: #333333;
+    cursor: pointer;
+}
+
+.container .sayi_girdi .sira4 input:hover {
+    transition: 0.1s all ease-in-out;
+    background-color: #ffffff81;
+}
+
+/*İSLEMLERİN SEMBOLLERİ*/
+.container .islem_sembolleri {
+    position: relative;
+    width: 75px;
+    height: 100%;
+    left: 225px;
+    bottom: 270px;
+    display: block;
+}
+
+/*SEMBOLLERİN BORDERLARI*/
+.container .islem_sembolleri .bolme_islem {
+    height: 75px;
+    width: 75px;
+}
+
+.container .islem_sembolleri .carpma_islem {
+    height: 75px;
+    width: 75px;
+}
+
+.container .islem_sembolleri .cikarma_islem {
+    height: 75px;
+    width: 75px;
+}
+
+.container .islem_sembolleri .toplam_islem {
+    height: 75px;
+    width: 75px;
+}
+
+/*İSLEM BUTONLARININ KENDİLERİ*/
+.container .islem_sembolleri input {
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    background-color: #ff9f43;
+    color: #ffff;
+}
+
+.container .islem_sembolleri input:hover {
+    transition: 0.1s all ease-in-out;
+    background-color: #ca7e36;
+}
+
+/*EŞİTTİR ALANI*/
+.container .sonuc_islem {
+    display: block;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    left: 225px;
+    bottom: 260px;
+}
+
+/*EŞİTTİR BUTTON*/
+.container .sonuc_islem input {
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    background-color: #28a745;
+    cursor: pointer;
+}
+
+.container .sonuc_islem input:hover {
+    transition: 0.1s all ease-in-out;
+    background-color: #1e8035;
+}
+
+/*İNPUT ALANI SİLME*/
+.container .delete_input {
+    width: 75px;
+    height: 75px;
+    display: block;
+    position: relative;
+    bottom: 335px;
+    left: 150px;
+}
+
+.container .delete_input input {
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.container .delete_input input:hover {
+    transition: 0.1s all ease-in-out;
+    background-color: brown;
+}
+
+/*Sonuç alanı css kodları*/
+.container .sonuc_area {
+    border: 1px solid black;
+    width: 140px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    bottom: 390px;
+}
+
+.container .sonuc_area label {
+    padding: 0 0 0 5;
+    width: 140px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #333333;
+}
